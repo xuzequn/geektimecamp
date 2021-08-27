@@ -1,5 +1,11 @@
 package main
 
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
 func preorderTraversal(root *TreeNode) (res []int) {
 
 	// nil 返回空
